@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jt-parent</artifactId>
+        <groupId>com.lq.jt</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>jt-manage</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>jt-manager-controller</module>
+        <module>jt-manager-service</module>
+        <module>jt-manager-mapper</module>
+        <module>jt-manager-pojo</module>
+    </modules>
+
+
+</project>
