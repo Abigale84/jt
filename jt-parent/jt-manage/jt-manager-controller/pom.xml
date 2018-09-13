@@ -11,5 +11,12 @@
 
     <artifactId>jt-manager-controller</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.lq.jt</groupId>
+            <artifactId>jt-manager-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
